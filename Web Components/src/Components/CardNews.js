@@ -9,7 +9,8 @@ class CardNews extends HTMLElement {
 
     build(){
         const componentRoot = document.createElement("div")
-        const cardLeft = document.createElement("div")
+        const cardLeft = componentRoot.createElement("div")
+        const cardRight = componentRoot.createElement("div")
 
         return componentRoot
     }
